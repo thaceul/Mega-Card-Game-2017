@@ -1,0 +1,17 @@
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega Card Game 2000.csprojResolveAssemblyReference.cache
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Battle.g.cs
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\MainWindow.g.cs
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\App.g.cs
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega Card Game 2000_MarkupCompile.cache
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega Card Game 2000_MarkupCompile.lref
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\bin\Debug\Mega Card Game 2000.exe.config
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\bin\Debug\Mega Card Game 2000.exe
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\bin\Debug\Mega Card Game 2000.pdb
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Battle.baml
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\MainWindow.baml
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega Card Game 2000.g.resources
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega_Card_Game_2000.Properties.Resources.resources
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega Card Game 2000.csproj.GenerateResource.Cache
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega Card Game 2000.csproj.CoreCompileInputs.cache
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega Card Game 2000.exe
+H:\Semester 2\Feasibility & Design\Assessment\Client\Mega Card Game 2000\Mega Card Game 2000\obj\Debug\Mega Card Game 2000.pdb

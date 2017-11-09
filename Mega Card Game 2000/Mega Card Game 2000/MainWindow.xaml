@@ -1,0 +1,75 @@
+﻿<Window x:Class="Mega_Card_Game_2000.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mega_Card_Game_2000"
+        mc:Ignorable="d"
+        Title="Mega Card Game - Home" Height="400" Width="530">
+    <Grid Margin="10,10,10,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center">
+            <Label Grid.Row="3" FontSize="20" HorizontalAlignment="Center" FontStretch="Expanded">Select a Character and Click Play Button</Label>
+        </StackPanel>
+
+        <Button Grid.Column="0"  Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="image/Warrior.jpg" Width="Auto" Height="80" Margin="5,5,5,5"/>
+            </StackPanel>
+        </Button>
+
+        <Button Grid.Column="1"  Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="image/Thief.jpg" Width="Auto" Height="60" Margin="5,5,5,5"/>
+            </StackPanel>
+        </Button>
+
+        <Button Grid.Column="2"  Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="image/Mage.jpg" Width="Auto" Height="80" Margin="5,5,5,5"/>
+            </StackPanel>
+        </Button>
+
+        <StackPanel Grid.Column="0"  Grid.Row="2" Orientation="Vertical">
+            <TextBlock Text="Warrior" FontWeight="Bold" HorizontalAlignment="Center" TextWrapping="WrapWithOverflow" />
+            <TextBlock Text="o 50 health points"  TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o 10 Base Damage - Punch"  TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o Berserk: 1 in 3 success rate"  TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o Failed Attempt: No action"  TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o Successful : 3X Damage"  TextWrapping="WrapWithOverflow"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1"  Grid.Row="2" Orientation="Vertical">
+            <TextBlock Text="Thief" FontWeight="Bold" HorizontalAlignment="Center" TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o 50 Health points"  TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o Punch - 10 Base Damage" TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o Backstab 1 in 3 success rate"  TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o unsuccessful: 0.5 X base damage"  TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o Successful : 2X damage" TextWrapping="WrapWithOverflow"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="3"  Grid.Row="2" Orientation="Vertical">
+            <TextBlock Text="Mage" FontWeight="Bold" HorizontalAlignment="Center" TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o 50 Health Points"  TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o Punch - 10 Base Damage" TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o BackStab: 1 in 3 success rate" TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o unsuccess: 1 X self Damage" TextWrapping="WrapWithOverflow"/>
+            <TextBlock Text="o Successful : 4 X Damage" TextWrapping="WrapWithOverflow"/>
+        </StackPanel>
+
+        <Button Margin="20,30,20,20" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="1" Height="50" Content="Play" VerticalAlignment="Center" FontSize="20" Click="button_play_click"/>
+
+    </Grid>
+</Window>
